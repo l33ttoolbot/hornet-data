@@ -80,3 +80,8 @@ logs/
 !processed/.gitkeep
 !metadata/.gitkeep
 !logs/.gitkeep
+# Secrets - NEVER commit these!
+.env
+*.env.local
+credentials.json
+kaggle.json
